@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>פרויקט גיט קבוצתי - משפטים לחיים</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            max-width: 650px;
+            width: 100%;
+            text-align: center;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 26px;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .student-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+            text-align: right;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .student-list li {
+            background: #f8f9fa;
+            margin: 8px 0;
+            padding: 10px 15px;
+            border-radius: 8px;
+            border-right: 4px solid #3498db;
+            transition: transform 0.2s, background 0.2s;
+        }
+        .student-list li:hover {
+            transform: translateX(-5px);
+            background: #eef2f7;
+        }
+        .student-list a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 17px;
+            display: block;
+        }
+        .footer-links {
+            margin-top: 20px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .git-link {
+            display: inline-block;
+            background-color: #24292e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .git-link:hover {
+            background-color: #444d56;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌟 פרויקט משפטי ההשראה הכיתתי</h1>
+        <p>כאן תוכלו למצוא את העמודים האישיים של כל אחת מהבנות בכיתה. לחצו על שם כדי להיכנס:</p>
+
+        <ul class="student-list">
+            <!-- הדוגמה של המורה -->
+            <li><a href="chavi.html">חוי שץ (דוגמה)</a></li>
+            
+            <!-- רשימת התלמידות -->
+            <li><a href="ayala-bannun.html">בן נון אילה</a></li>
+            <li><a href="chana-bradt.html">בראדט חנה</a></li>
+            <li><a href="avigail-ginsberg.html">גינסברג אביגיל</a></li>
+            <li><a href="miriam-haid.html">הייד מרים</a></li>
+            <li><a href="avital-weizer.html">ויזר אביטל</a></li>
+            <li><a href="adi-itzhaki.html">יצחקי עדי</a></li>
+            <li><a href="raya-levy.html">לוי רעיה</a></li>
+            <li><a href="rivka-amar.html">עמאר רבקה</a></li>
+            <li><a href="dina-kadosh.html">קדוש דינה</a></li>
+            <li><a href="tamar-kalmus.html">קלמוס תמר</a></li>
+            <li><a href="tamar-rosenfeld.html">רוזנפלד תמר</a></li>
+            <li><a href="elisheva-schonfeld.html">שונפלד אלישבע</a></li>
+            <li><a href="tamar-schwartzman.html">שורצמן תמר</a></li>
+        </ul>
+
+        <div class="footer-links">
+            <a class="git-link" href="https://github.com/Esti1234/learning-git-lesson-1" target="_blank">🔗 צפייה במאגר ב-GitHub</a>
+        </div>
+    </div>
+
+</body>
+</html>
